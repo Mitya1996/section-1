@@ -66,7 +66,7 @@ async function getCategory(catId) {
 
 async function fillTable() {
     for(category of categories){
-        $('#headerRow').append(`<td class="cell header-cell">${category.title}</td>`);
+        $('#headerRow').append(`<td class="cell header-cell">${category.title.toUpperCase()}</td>`);
     }
  
     //append tr from top to bottom

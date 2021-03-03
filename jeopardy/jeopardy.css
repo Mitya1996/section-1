@@ -23,16 +23,18 @@
   height: 70px;
 }
 
-#headerRow {
-  height: 30px;
-}
-
 .cell {
   color: white;
   width: 70px;
   height: 100px;
   background-color: #115ff4;
   border: 2px solid white;
+}
+
+.header-cell {
+  height: 30px;
+  text-shadow: 1px 1px #d3a611;
+
 }
 
 #gameBtn {
