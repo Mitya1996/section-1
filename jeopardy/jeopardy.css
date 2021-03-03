@@ -5,3 +5,40 @@
   #8d2ab5
   #74119c
 */
+
+
+#spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031; /* High z-index so it is on top of the page */
+  top: 50%;
+  right: 50%; /* or: left: 50%; */
+}
+
+#jeopardy {
+  width: 100%;
+}
+
+#jeopardy tr {
+  height: 70px;
+}
+
+#headerRow {
+  height: 30px;
+}
+
+.cell {
+  color: white;
+  width: 70px;
+  height: 100px;
+  background-color: #115ff4;
+  border: 2px solid white;
+}
+
+#gameBtn {
+  background-color: #28a200;
+}
+
+body {
+  background-color: #8d2ab526;
+}
